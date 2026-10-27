@@ -16,7 +16,13 @@ Die aktuelle Version: **[Geo-Suite.apk](https://github.com/TheChestnutTreeSchool
 3. Updates: in der App unter Einstellungen → «Nach Updates suchen». Alle Aufnahmen bleiben erhalten.
 
 Jede Version ist mit demselben Schlüssel des Herausgebers signiert. Android installiert ein Update nur, wenn die
-Signatur mit der installierten App übereinstimmt.
+Signatur mit der installierten App übereinstimmt; ab Version 2.14 prüft die App das zusätzlich vor der Installation.
+
+Fingerabdruck des Signaturzertifikats (SHA-256) – steht auch in der App unter Einstellungen → «Über die App»:
+
+```
+85:0F:74:41:2B:1D:A1:2C:52:6A:5E:63:15:2B:C3:D9:AB:59:44:E4:5D:AA:60:B5:10:73:CE:4C:B0:F0:1C:3A
+```
 
 ## Inhalt dieses Repositorys
 
