@@ -1,0 +1,30 @@
+{
+  "version": 8,
+  "name": "Landeskarte 1:25'000",
+  "sources": {
+    "swisstopo": {
+      "type": "raster",
+      "tiles": [
+        "https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe-pk25.noscale/default/current/3857/{z}/{x}/{y}.jpeg"
+      ],
+      "tileSize": 256,
+      "minzoom": 0,
+      "maxzoom": 18,
+      "attribution": "© Data: swisstopo"
+    }
+  },
+  "layers": [
+    {
+      "id": "hintergrund",
+      "type": "background",
+      "paint": {
+        "background-color": "#f2efe9"
+      }
+    },
+    {
+      "id": "swisstopo",
+      "type": "raster",
+      "source": "swisstopo"
+    }
+  ]
+}
